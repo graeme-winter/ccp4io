@@ -182,7 +182,7 @@
 #  define NATIVEIT DFNTI_IBO
 #endif
 
-#if defined(MIPSEL) || defined(i386) || defined(i860) || defined(__ia64__) || defined(__amd64__) || defined(__x86_64__) || defined(WIN32)
+#if defined(MIPSEL) || defined(i386) || defined(i860) || defined(__ia64__) || defined(__amd64__) || defined(__x86_64__) || defined(WIN32) || defined(__INTEL_COMPILER)
 #  define NATIVEIT DFNTI_IBO
 #  define NATIVEFT DFNTF_LEIEEE
 #endif
